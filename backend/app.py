@@ -22,7 +22,7 @@ def fetch_poster(movie_id):
     # if poster_path:
     #     return "https://image.tmdb.org/t/p/w500/" + poster_path
     # else:
-    return "https://via.placeholder.com/150"
+    return "https://placehold.co/150"
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
